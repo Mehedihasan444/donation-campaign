@@ -1,0 +1,122 @@
+[
+    {
+        "Picture": "education_image1.jpg",
+        "Title": "Scholarship Program",
+        "Category": "Education",
+        "Category_bg": "#3498db",
+        "Card_bg": "#ecf0f1",
+        "Text_button_bg": "#2ecc71",
+        "Description": "Support underprivileged students in their pursuit of higher education by providing scholarships.",
+        "Price": 50.00
+    },
+    {
+        "Picture": "health_image1.jpg",
+        "Title": "Medical Clinic Renovation",
+        "Category": "Health",
+        "Category_bg": "#e74c3c",
+        "Card_bg": "#f5b7b1",
+        "Text_button_bg": "#d35400",
+        "Description": "Help renovate and equip a local medical clinic to improve healthcare access in the community.",
+        "Price": 75.00
+    },
+    {
+        "Picture": "clothing_image1.jpg",
+        "Title": "Winter Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "#9b59b6",
+        "Card_bg": "#d1a0ff",
+        "Text_button_bg": "#8e44ad",
+        "Description": "Donate warm clothing to provide comfort and warmth to those in need during the winter season.",
+        "Price": 30.00
+    },
+    {
+        "Picture": "food_image1.jpg",
+        "Title": "Food Bank Support",
+        "Category": "Food",
+        "Category_bg": "#1abc9c",
+        "Card_bg": "#a2d9ce",
+        "Text_button_bg": "#16a085",
+        "Description": "Contribute to a local food bank to help alleviate hunger and food insecurity in your community.",
+        "Price": 40.00
+    },
+    {
+        "Picture": "education_image2.jpg",
+        "Title": "Literacy Program Expansion",
+        "Category": "Education",
+        "Category_bg": "#3498db",
+        "Card_bg": "#ecf0f1",
+        "Text_button_bg": "#2ecc71",
+        "Description": "Support the expansion of a literacy program to empower more individuals with reading skills.",
+        "Price": 35.00
+    },
+    {
+        "Picture": "health_image2.jpg",
+        "Title": "Vaccination Outreach",
+        "Category": "Health",
+        "Category_bg": "#e74c3c",
+        "Card_bg": "#f5b7b1",
+        "Text_button_bg": "#d35400",
+        "Description": "Contribute to a vaccination outreach program to ensure that more people have access to vaccines.",
+        "Price": 20.00
+    },
+    {
+        "Picture": "clothing_image2.jpg",
+        "Title": "Back-to-School Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "#9b59b6",
+        "Card_bg": "#d1a0ff",
+        "Text_button_bg": "#8e44ad",
+        "Description": "Help children start the school year right by donating school clothes and supplies.",
+        "Price": 25.00
+    },
+    {
+        "Picture": "food_image2.jpg",
+        "Title": "Nutrition Program for Seniors",
+        "Category": "Food",
+        "Category_bg": "#1abc9c",
+        "Card_bg": "#a2d9ce",
+        "Text_button_bg": "#16a085",
+        "Description": "Support a nutrition program that provides balanced meals to senior citizens in need.",
+        "Price": 45.00
+    },
+    {
+        "Picture": "education_image3.jpg",
+        "Title": "STEM Education Initiative",
+        "Category": "Education",
+        "Category_bg": "#3498db",
+        "Card_bg": "#ecf0f1",
+        "Text_button_bg": "#2ecc71",
+        "Description": "Promote STEM education by funding programs that inspire young minds in science and technology.",
+        "Price": 55.00
+    },
+    {
+        "Picture": "health_image3.jpg",
+        "Title": "Mental Health Awareness",
+        "Category": "Health",
+        "Category_bg": "#e74c3c",
+        "Card_bg": "#f5b7b1",
+        "Text_button_bg": "#d35400",
+        "Description": "Support mental health awareness campaigns to reduce the stigma and provide resources for those in need.",
+        "Price": 60.00
+    },
+    {
+        "Picture": "clothing_image3.jpg",
+        "Title": "Professional Attire for Job Seekers",
+        "Category": "Clothing",
+        "Category_bg": "#9b59b6",
+        "Card_bg": "#d1a0ff",
+        "Text_button_bg": "#8e44ad",
+        "Description": "Help job seekers dress professionally for interviews and employment opportunities.",
+        "Price": 30.00
+    },
+    {
+        "Picture": "food_image3.jpg",
+        "Title": "Emergency Food Relief",
+        "Category": "Food",
+        "Category_bg": "#1abc9c",
+        "Card_bg": "#a2d9ce",
+        "Text_button_bg": "#16a085",
+        "Description": "Support emergency food relief efforts to provide immediate assistance to those facing hunger crises.",
+        "Price": 50.00
+    }
+]
