@@ -71,3 +71,19 @@ meaningful github commits.
 error.
 4) The website should be responsive in all devices: desktop, mobile and tablet
 views. The responsive layout is up to you
+
+
+
+
+Image links :
+
+
+https://i.ibb.co/cgF6rS3/image-2.png
+https://i.ibb.co/SfWvJyZ/image-3.png
+https://i.ibb.co/9pfpnPT/image-4.png
+https://i.ibb.co/644xGMy/image-5.png
+https://i.ibb.co/XYXQ75g/image-6.png
+https://i.ibb.co/DpSKgmM/image-7.png
+https://i.ibb.co/FHBzyXB/image-8.png
+https://i.ibb.co/KGhZHSV/image-9.png
+https://i.ibb.co/RhpSQLW/Image-1.png

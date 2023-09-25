@@ -1,122 +1,134 @@
 [
-    {
-        "Picture": "education_image1.jpg",
-        "Title": "Scholarship Program",
-        "Category": "Education",
-        "Category_bg": "#3498db",
-        "Card_bg": "#ecf0f1",
-        "Text_button_bg": "#2ecc71",
-        "Description": "Support underprivileged students in their pursuit of higher education by providing scholarships.",
-        "Price": 50.00
-    },
-    {
-        "Picture": "health_image1.jpg",
-        "Title": "Medical Clinic Renovation",
-        "Category": "Health",
-        "Category_bg": "#e74c3c",
-        "Card_bg": "#f5b7b1",
-        "Text_button_bg": "#d35400",
-        "Description": "Help renovate and equip a local medical clinic to improve healthcare access in the community.",
-        "Price": 75.00
-    },
-    {
-        "Picture": "clothing_image1.jpg",
-        "Title": "Winter Clothing Drive",
-        "Category": "Clothing",
-        "Category_bg": "#9b59b6",
-        "Card_bg": "#d1a0ff",
-        "Text_button_bg": "#8e44ad",
-        "Description": "Donate warm clothing to provide comfort and warmth to those in need during the winter season.",
-        "Price": 30.00
-    },
-    {
-        "Picture": "food_image1.jpg",
-        "Title": "Food Bank Support",
-        "Category": "Food",
-        "Category_bg": "#1abc9c",
-        "Card_bg": "#a2d9ce",
-        "Text_button_bg": "#16a085",
-        "Description": "Contribute to a local food bank to help alleviate hunger and food insecurity in your community.",
-        "Price": 40.00
-    },
-    {
-        "Picture": "education_image2.jpg",
-        "Title": "Literacy Program Expansion",
-        "Category": "Education",
-        "Category_bg": "#3498db",
-        "Card_bg": "#ecf0f1",
-        "Text_button_bg": "#2ecc71",
-        "Description": "Support the expansion of a literacy program to empower more individuals with reading skills.",
-        "Price": 35.00
-    },
-    {
-        "Picture": "health_image2.jpg",
-        "Title": "Vaccination Outreach",
-        "Category": "Health",
-        "Category_bg": "#e74c3c",
-        "Card_bg": "#f5b7b1",
-        "Text_button_bg": "#d35400",
-        "Description": "Contribute to a vaccination outreach program to ensure that more people have access to vaccines.",
-        "Price": 20.00
-    },
-    {
-        "Picture": "clothing_image2.jpg",
-        "Title": "Back-to-School Clothing Drive",
-        "Category": "Clothing",
-        "Category_bg": "#9b59b6",
-        "Card_bg": "#d1a0ff",
-        "Text_button_bg": "#8e44ad",
-        "Description": "Help children start the school year right by donating school clothes and supplies.",
-        "Price": 25.00
-    },
-    {
-        "Picture": "food_image2.jpg",
-        "Title": "Nutrition Program for Seniors",
-        "Category": "Food",
-        "Category_bg": "#1abc9c",
-        "Card_bg": "#a2d9ce",
-        "Text_button_bg": "#16a085",
-        "Description": "Support a nutrition program that provides balanced meals to senior citizens in need.",
-        "Price": 45.00
-    },
-    {
-        "Picture": "education_image3.jpg",
-        "Title": "STEM Education Initiative",
-        "Category": "Education",
-        "Category_bg": "#3498db",
-        "Card_bg": "#ecf0f1",
-        "Text_button_bg": "#2ecc71",
-        "Description": "Promote STEM education by funding programs that inspire young minds in science and technology.",
-        "Price": 55.00
-    },
-    {
-        "Picture": "health_image3.jpg",
-        "Title": "Mental Health Awareness",
-        "Category": "Health",
-        "Category_bg": "#e74c3c",
-        "Card_bg": "#f5b7b1",
-        "Text_button_bg": "#d35400",
-        "Description": "Support mental health awareness campaigns to reduce the stigma and provide resources for those in need.",
-        "Price": 60.00
-    },
-    {
-        "Picture": "clothing_image3.jpg",
-        "Title": "Professional Attire for Job Seekers",
-        "Category": "Clothing",
-        "Category_bg": "#9b59b6",
-        "Card_bg": "#d1a0ff",
-        "Text_button_bg": "#8e44ad",
-        "Description": "Help job seekers dress professionally for interviews and employment opportunities.",
-        "Price": 30.00
-    },
-    {
-        "Picture": "food_image3.jpg",
-        "Title": "Emergency Food Relief",
-        "Category": "Food",
-        "Category_bg": "#1abc9c",
-        "Card_bg": "#a2d9ce",
-        "Text_button_bg": "#16a085",
-        "Description": "Support emergency food relief efforts to provide immediate assistance to those facing hunger crises.",
-        "Price": 50.00
-    }
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "Scholarship Program",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_button_bg": "#FF444A",
+    "Description": "Support underprivileged students in their pursuit of higher education by providing scholarships. Your contribution will enable deserving students to access quality education and reach their full potential. Education is a powerful tool for personal growth and societal progress, and your donation can make a significant impact in breaking the cycle of poverty. By investing in education, you are investing in a brighter future for these students and the community as a whole.\n\nTogether, we can create a world where every individual has the opportunity to achieve their dreams and contribute positively to society. Join us in making education accessible to all, regardless of their financial background. Your generosity can change lives and inspire future generations.",
+    "Price": 50.0,
+    "Id": 1
+  },
+  {
+    "Picture": "https://i.ibb.co/SfWvJyZ/image-3.png",
+    "Title": "Medical Clinic Renovation",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_button_bg": "#0052FF",
+    "Description": "Help renovate and equip a local medical clinic to improve healthcare access in the community. Access to quality healthcare is a fundamental right, and your donation can make a significant difference in the lives of individuals who rely on this clinic for medical services.\n\nBy contributing to this project, you are ensuring that the clinic has modern facilities, medical equipment, and a comfortable environment for patients. This initiative aims to enhance the quality of healthcare services, reduce waiting times, and ultimately save lives.\n\nYour support for the medical clinic renovation project is an investment in the health and well-being of the community. Together, we can create a healthier future for all, where healthcare is accessible and effective for everyone, regardless of their economic circumstances.",
+    "Price": 75.0,
+    "Id": 2
+  },
+  {
+    "Picture": "https://i.ibb.co/644xGMy/image-5.png",
+    "Title": "Winter Clothing Drive",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_button_bg": "#79C23F",
+    "Description": "Donate warm clothing to provide comfort and warmth to those in need during the winter season. As the temperatures drop, many individuals, including children and the homeless, struggle to stay warm. Your contribution to the Winter Clothing Drive can help alleviate their suffering and ensure that they have adequate protection against the cold.\n\nWarm clothing items such as coats, gloves, scarves, and blankets can make a significant difference in the lives of those facing harsh winter conditions. Your generosity will not only provide physical warmth but also bring comfort and hope to those in need.\n\nJoin us in spreading warmth and compassion this winter by participating in the Clothing Drive. Your donation can make a world of difference to someone in need and remind them that they are not alone during challenging times.",
+    "Price": 30.0,
+    "Id": 3
+  },
+  {
+    "Picture": "https://i.ibb.co/XYXQ75g/image-6.png",
+    "Title": "Food Bank Support",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_button_bg": "#F87147",
+    "Description": "Contribute to a local food bank to help alleviate hunger and food insecurity in your community. Many families and individuals struggle to put food on their tables, and your donation can make a significant impact in ensuring that no one goes to bed hungry.\n\nFood banks play a crucial role in providing nutritious meals to those in need, and your support can help them acquire and distribute essential food items to the most vulnerable members of the community. Your generosity can provide not only sustenance but also hope to those facing food insecurity.\n\nBy participating in the Food Bank Support program, you are taking a stand against hunger and making a positive difference in the lives of those less fortunate. Join us in the fight against food insecurity and help build a community where everyone has access to nourishing meals.",
+    "Price": 40.0,
+    "Id": 4
+  },
+  {
+    "Picture": "https://i.ibb.co/XYXQ75g/image-6.png",
+    "Title": "Literacy Program Expansion",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_button_bg": "#FF444A",
+    "Description": "Support the expansion of a literacy program to empower more individuals with reading skills. Literacy is a fundamental skill that opens doors to knowledge, employment, and personal growth. Your donation can help us reach more learners and provide them with the gift of literacy.\n\nBy contributing to the Literacy Program Expansion, you are enabling us to offer literacy classes, reading materials, and educational resources to individuals of all ages. Whether it's a child learning to read or an adult improving their literacy skills, your support makes a meaningful impact.\n\nJoin us in the journey to promote literacy and education. Your generosity can change lives, boost confidence, and create a brighter future for individuals and their communities.",
+    "Price": 35.0,
+    "Id": 5
+  },
+  {
+    "Picture": "https://i.ibb.co/644xGMy/image-5.png",
+    "Title": "Vaccination Outreach",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_button_bg": "#0052FF",
+    "Description": "Contribute to a vaccination outreach program to ensure that more people have access to vaccines. Vaccination is a critical aspect of public health, and your donation can help us reach underserved communities and increase vaccination rates.\n\nBy supporting the Vaccination Outreach program, you are helping to fund vaccination clinics, awareness campaigns, and outreach efforts in areas with limited access to healthcare services. Your contribution can protect individuals from preventable diseases and contribute to overall community health.\n\nJoin us in the fight against vaccine-preventable diseases. Your generosity can save lives, protect vulnerable populations, and create a healthier future for all.",
+    "Price": 20.0,
+    "Id": 6
+  },
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "Back-to-School Clothing Drive",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_button_bg": "#79C23F",
+    "Description": "Help children start the school year right by donating school clothes and supplies. Going back to school should be an exciting time for every child, but for some families, it can be a financial challenge. Your support for the Back-to-School Clothing Drive can make a big difference.\n\nYour donation will provide school uniforms, backpacks, notebooks, and other essential supplies to children in need. By ensuring that they have the necessary tools for learning, you are giving them a better chance at academic success and a brighter future.\n\nJoin us in supporting young learners and making their educational journey a positive and fulfilling one. Your generosity can boost their confidence and set them on the path to success.",
+    "Price": 25.0,
+    "Id": 7
+  },
+  {
+    "Picture": "https://i.ibb.co/SfWvJyZ/image-3.png",
+    "Title": "Nutrition Program for Seniors",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_button_bg": "#F87147",
+    "Description": "Support a nutrition program that provides balanced meals to senior citizens in need. As people age, access to proper nutrition becomes increasingly important for their health and well-being. Your contribution to the Nutrition Program for Seniors can help ensure that elderly members of your community receive nutritious meals.\n\nThis program aims to provide carefully planned and balanced meals to seniors who may face challenges in preparing food for themselves. Your donation can improve their quality of life, promote better health, and reduce the risk of malnutrition.\n\nJoin us in supporting our senior community members and showing them that they are cared for and valued. Your generosity can make a significant difference in their lives.",
+    "Price": 45.0,
+    "Id": 8
+  },
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "STEM Education Initiative",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_button_bg": "#FF444A",
+    "Description": "Promote STEM education by funding programs that inspire young minds in science and technology. STEM (Science, Technology, Engineering, and Mathematics) education is crucial for preparing future generations for the challenges and opportunities of a rapidly evolving world. Your support for the STEM Education Initiative can help spark interest and passion for STEM fields among young learners.\n\nBy contributing to this initiative, you are enabling us to organize STEM workshops, provide educational materials, and create engaging learning experiences for students. Your donation can empower them with the knowledge and skills needed to tackle complex problems and drive innovation.\n\nJoin us in shaping the future of education and fostering a love for science and technology. Your generosity can inspire the next generation of scientists, engineers, and innovators.",
+    "Price": 55.0,
+    "Id": 9
+  },
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "Mental Health Awareness",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_button_bg": "#0052FF",
+    "Description": "Support mental health awareness campaigns to reduce the stigma and provide resources for those in need. Mental health is a critical aspect of overall well-being, and it's essential to raise awareness and offer support to those facing mental health challenges. Your contribution to Mental Health Awareness can help us reach individuals who may be struggling in silence.\n\nThis campaign focuses on destigmatizing mental health issues, providing information and resources, and fostering a supportive community. Your donation can fund outreach programs, educational initiatives, and access to mental health services for those who need them.\n\nJoin us in breaking the silence around mental health and offering hope and assistance to individuals and families. Your generosity can make a positive impact on countless lives.",
+    "Price": 60.0,
+    "Id": 10
+  },
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "Professional Attire for Job Seekers",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_button_bg": "#79C23F",
+    "Description": "Help job seekers dress professionally for interviews and employment opportunities. Securing a job interview is a crucial step in the job search process, and having appropriate attire can make a significant difference. Your support for the Professional Attire for Job Seekers program can help individuals make a strong impression and increase their chances of finding employment.\n\nYour donation will provide interview-appropriate clothing, such as suits, blouses, and dress shoes, to job seekers who may not have the means to afford professional attire. By boosting their confidence and appearance, you are helping them take positive steps toward employment.\n\nJoin us in empowering job seekers and assisting them on their path to self-sufficiency. Your generosity can change lives and create opportunities for a brighter future.",
+    "Price": 30.0,
+    "Id": 11
+  },
+  {
+    "Picture": "https://i.ibb.co/cgF6rS3/image-2.png",
+    "Title": "Emergency Food Relief",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_button_bg": "#F87147",
+    "Description": "Support emergency food relief efforts to provide immediate assistance to those facing hunger crises. In times of crisis, such as natural disasters or economic downturns, access to food can become a critical issue for many families and individuals. Your contribution to Emergency Food Relief can help ensure that those affected by emergencies have access to nutritious meals.\n\nThis program is designed to respond swiftly to food crises by distributing food packages, ready-to-eat meals, and essential supplies to affected communities. Your donation can provide comfort and sustenance during challenging times.\n\nJoin us in providing immediate relief to those in need during emergencies. Your generosity can offer a lifeline to individuals and families facing food insecurity and adversity.",
+    "Price": 50.0,
+    "Id": 12
+  }
 ]

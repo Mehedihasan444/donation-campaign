@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "../Components/Header/Header";
 
 
+
 const MainLayout = () => {
     return (
         <div>
@@ -9,6 +10,7 @@ const MainLayout = () => {
             <div className="">
                 <Outlet></Outlet>
             </div>
+            
         </div>
     );
 };
