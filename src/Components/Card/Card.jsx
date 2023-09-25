@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Card = ({ card }) => {
+const Card = ({ card, }) => {
   const { Id, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg } =
     card;
   return (
