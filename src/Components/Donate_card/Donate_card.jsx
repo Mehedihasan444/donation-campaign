@@ -27,7 +27,7 @@ const Donate_card = ({ donate }) => {
             {Title}
           </h3>
           <span className="font-bold block"  style={{ color: `${Text_button_bg}` }}>${Price}</span>
-          <Link to={`/cards/${Id}`}><button className="px-5 py-2 text-white rounded-md" style={{ backgroundColor: `${Text_button_bg}` }}>View Details</button></Link>
+          <Link to={`/cards/${Id}`}><button className="px-5 mt-3 py-2 text-white rounded-md" style={{ backgroundColor: `${Text_button_bg}` }}>View Details</button></Link>
         </div>
       </div>
     </div>

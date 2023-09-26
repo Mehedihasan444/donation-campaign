@@ -1,9 +1,21 @@
+import PropTypes from "prop-types";
 import "./Banner.css";
-const Banner = () => {
+const Banner = ({setInputFieldData}) => {
+
+  const handleInputField = () => {
+    const value = document.getElementById("default-search");
+    const textValue = value.value;
+    console.log();
+    setInputFieldData(textValue.toLowerCase())
+  
+  };
+
   return (
     <div className="h-screen text-center backgroundImage bg-overlay flex flex-col justify-center items-center  ">
       <div className="absolute">
-        <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
+        <h1 className="md:text-5xl font-bold">
+          I Grow By Helping People In Need
+        </h1>
         <section className="max-w-7xl mx-auto mt-10 w-[80%]">
           <label
             htmlFor="default-search"
@@ -37,6 +49,7 @@ const Banner = () => {
               required
             />
             <button
+              onClick={handleInputField}
               type="submit"
               className="text-white absolute right-2.5 bottom-2.5 bg-[#FF444A] hover:bg-[#e00d14] focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
             >
@@ -48,5 +61,7 @@ const Banner = () => {
     </div>
   );
 };
-
+Banner.propTypes={
+  setInputFieldData:PropTypes.func.isRequired,
+}
 export default Banner;

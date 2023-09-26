@@ -1,6 +1,6 @@
 
 .bg-overlay {
-    background-image: url(../../assets/images/Banner.jpg); /* Replace with your image path */
+    background-image: url('https://i.ibb.co/4TFPvPw/Banner.jpg'); 
     background-size: cover;
     background-position: center;
     position: relative;
