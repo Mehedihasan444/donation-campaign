@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';  
 const Donate_card = ({ donate }) => {
 //   console.log(donate);
   const { Id, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg,Price } =
@@ -25,11 +27,15 @@ const Donate_card = ({ donate }) => {
             {Title}
           </h3>
           <span className="font-bold block"  style={{ color: `${Text_button_bg}` }}>${Price}</span>
-          <button className="px-5 py-2 text-white rounded-md" style={{ backgroundColor: `${Text_button_bg}` }}>View Details</button>
+          <Link to={`/cards/${Id}`}><button className="px-5 py-2 text-white rounded-md" style={{ backgroundColor: `${Text_button_bg}` }}>View Details</button></Link>
         </div>
       </div>
     </div>
   );
 };
 
+Donate_card.propTypes = {
+  donate:PropTypes.object.isRequired
+ 
+};
 export default Donate_card;

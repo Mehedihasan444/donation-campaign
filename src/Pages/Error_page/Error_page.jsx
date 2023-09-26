@@ -5,7 +5,9 @@ const Error_page = () => {
     return (
         <div>
             <Header></Header>
-            <h1 className="text-5xl text-center font-bold">Error</h1>
+           <div className=" h-screen max-w-7xl mx-auto flex justify-center items-center ">
+           <h1 className="text-5xl text-center font-bold">Error!!</h1>
+           </div>
         </div>
     );
 };
