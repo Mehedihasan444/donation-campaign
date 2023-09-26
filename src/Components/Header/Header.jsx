@@ -9,7 +9,7 @@ const Header = () => {
     <div className="relative ">
      
       <div className="hidden md:block">
-        <div className=" max-w-7xl mx-auto flex justify-between items-center absolute top-0 left-0 right-0 z-10">
+        <div className="md:max-w-2xl md:mx-auto lg:max-w-7xl mx-auto flex justify-between items-center absolute top-0 left-0 right-0 z-10">
           <div className="">
             <img src={logo} alt="" className="" />
           </div>

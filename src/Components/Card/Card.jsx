@@ -4,9 +4,9 @@ const Card = ({ card }) => {
   const { Id, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg } =
     card;
   return (
-    <div className="">
+    <div className="flex justify-center ">
       <Link to={`/cards/${Id}`}>
-        <div className="rounded-md " style={{ backgroundColor: `${Card_bg}` }}>
+        <div className="rounded-md w-[305px] h-[322px]" style={{ backgroundColor: `${Card_bg}` }}>
           <div className="object-cover">
             <img src={Picture} alt="" className="w-full" />
           </div>

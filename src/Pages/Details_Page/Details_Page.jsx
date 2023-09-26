@@ -32,7 +32,7 @@ const Details_Page = () => {
     }
   };
   return (
-    <div className="max-w-7xl mx-auto pt-32 space-y-5 mb-20">
+    <div className="max-w-[350px] md:max-w-2xl lg:max-w-7xl mx-auto pt-32 space-y-5 mb-20">
       <div className=" relative ">
         <img src={card.Picture} alt="" className="w-full" />
         <div className="absolute bottom-0 right-0 left-0 bg-[#00000085] h-28 flex items-center">
@@ -44,7 +44,7 @@ const Details_Page = () => {
           </button>
         </div>
       </div>
-      <h1 className="text-5xl font-bold">{card.Title}</h1>
+      <h1 className="text-3xl md:text-5xl font-bold">{card.Title}</h1>
       <p className="text-justify">{card.Description}</p>
     </div>
   );

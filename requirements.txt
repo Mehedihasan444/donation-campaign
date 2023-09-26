@@ -87,3 +87,9 @@ https://i.ibb.co/DpSKgmM/image-7.png
 https://i.ibb.co/FHBzyXB/image-8.png
 https://i.ibb.co/KGhZHSV/image-9.png
 https://i.ibb.co/RhpSQLW/Image-1.png
+
+
+education:https://i.ibb.co/SfWvJyZ/image-3.png
+Health:https://i.ibb.co/XYXQ75g/image-6.png
+Clothing:https://i.ibb.co/cgF6rS3/image-2.png
+Food:https://i.ibb.co/644xGMy/image-5.png

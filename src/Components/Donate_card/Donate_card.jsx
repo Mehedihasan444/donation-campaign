@@ -5,10 +5,10 @@ const Donate_card = ({ donate }) => {
   const { Id, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg,Price } =
     donate;
   return (
-    <div>
-      <div className="rounded-md flex " style={{ backgroundColor: `${Card_bg}` }}>
+    <div className="px-5 md:px-0">
+      <div className="rounded-md md:flex mb-10" style={{ backgroundColor: `${Card_bg}` }}>
         <div className="object-cover">
-          <img src={Picture} alt="" className="w-full" />
+          <img src={Picture} alt="" className="w-full h-[194px]" />
         </div>
         <div className="p-5 rounded-md space-y-3">
           <span
@@ -21,7 +21,7 @@ const Donate_card = ({ donate }) => {
             {Category}
           </span>
           <h3
-            className="text-xl font-semibold mt-3"
+            className="text-xl font-semibold mt-3 truncate"
            
           >
             {Title}

@@ -13,10 +13,10 @@ const Banner = ({setInputFieldData}) => {
   return (
     <div className="h-screen text-center backgroundImage bg-overlay flex flex-col justify-center items-center  ">
       <div className="absolute">
-        <h1 className="md:text-5xl font-bold">
+        <h1 className="md:max-w-2xl md:mx-auto lg:max-w-7xl mx-auto text-xl md:text-5xl font-bold">
           I Grow By Helping People In Need
         </h1>
-        <section className="max-w-7xl mx-auto mt-10 w-[80%]">
+        <section className="md:max-w-xl md:mx-auto lg:max-w-7xl mx-auto mt-10 md:w-[80%]">
           <label
             htmlFor="default-search"
             className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

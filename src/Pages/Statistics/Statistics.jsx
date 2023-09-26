@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
-
 const Statistics = () => {
   // eslint-disable-next-line no-unused-vars
   const [donation, setDonation] = useState([]);
@@ -9,8 +8,6 @@ const Statistics = () => {
 
   useEffect(() => {
     const donations = JSON.parse(localStorage.getItem("donations"));
-
-    // console.log(donations)
 
     if (donations === null) {
       setValue(0);
@@ -20,8 +17,6 @@ const Statistics = () => {
       setValue(donations.length);
     }
   }, []);
-
-  // console.log(Value)
 
   const data = [
     { name: "Group A", value: 12 - Value },
@@ -56,15 +51,15 @@ const Statistics = () => {
   };
 
   return (
-    <div className="max-w-7xl h-screen  mx-auto flex flex-col justify-center items-center">
-      <PieChart width={600} height={400}>
+    <div className="max-w-[350px] md:max-w-2xl lg:max-w-7xl h-screen  mx-auto flex flex-col justify-center items-center">
+      <PieChart width={380} height={400}>
         <Pie
           data={data}
           cx="50%"
           cy="50%"
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={200}
+          outerRadius={170}
           fill="#8884d8"
           dataKey="value"
         >
@@ -73,7 +68,7 @@ const Statistics = () => {
           ))}
         </Pie>
       </PieChart>
-      <div className="flex gap-10 mt-10">
+      <div className="md:flex gap-10 mt-10">
         <div className="flex gap-5 items-center justify-center">
           <span className="">Your Donation</span>
           <div className="bg-[#00C49F] h-2 w-16  rounded-sm"></div>

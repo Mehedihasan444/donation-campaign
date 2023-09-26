@@ -4,7 +4,6 @@ const Cards = ({ cards, inputFieldData }) => {
   let temp;
   if (inputFieldData === "") {
     temp = cards;
-    // console.log("from if", temp);
   } else {
     let filteredCards = [];
     filteredCards = cards.filter((card) =>card.Category.toLowerCase().includes(inputFieldData)
@@ -14,7 +13,7 @@ const Cards = ({ cards, inputFieldData }) => {
   }
 
   return (
-    <div className="grid md:grid-cols-3  lg:grid-cols-4 gap-5 max-w-7xl mx-auto mt-20 mb-20">
+    <div className="grid md:grid-cols-2  lg:grid-cols-4 gap-5 max-w-7xl mx-auto mt-20 mb-20 justify-center items-center">
       {temp?.map((card) => (
         <Card key={card.Id} card={card}></Card>
       ))}
