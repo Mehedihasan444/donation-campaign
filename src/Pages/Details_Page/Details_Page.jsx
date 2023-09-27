@@ -32,12 +32,12 @@ const Details_Page = () => {
     }
   };
   return (
-    <div className="max-w-[350px] md:max-w-2xl lg:max-w-7xl mx-auto pt-32 space-y-5 mb-20">
+    <div className="px-5 md:px-0 md:max-w-2xl lg:max-w-7xl mx-auto pt-10 md:pt-32 space-y-5 mb-20">
       <div className=" relative ">
         <img src={card.Picture} alt="" className="w-full" />
-        <div className="absolute bottom-0 right-0 left-0 bg-[#00000085] h-28 flex items-center">
+        <div className="absolute bottom-0 right-0 left-0 bg-[#00000085] h-16 md:h-28 flex items-center">
           <button
-            className="text-white bg-red-600 rounded-md py-3 ml-5  px-4"
+            className="text-white bg-red-600 rounded-md py-1 px-2 md:py-3 ml-5  md:px-4"
             onClick={() => handleAddToDonation(card.Id)} style={{
               backgroundColor: `${card.Text_button_bg}`
             }}
