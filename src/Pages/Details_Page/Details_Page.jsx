@@ -38,7 +38,9 @@ const Details_Page = () => {
         <div className="absolute bottom-0 right-0 left-0 bg-[#00000085] h-28 flex items-center">
           <button
             className="text-white bg-red-600 rounded-md py-3 ml-5  px-4"
-            onClick={() => handleAddToDonation(card.Id)}
+            onClick={() => handleAddToDonation(card.Id)} style={{
+              backgroundColor: `${card.Text_button_bg}`
+            }}
           >
             Donate ${card.Price}
           </button>

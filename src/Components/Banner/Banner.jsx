@@ -5,7 +5,7 @@ const Banner = ({setInputFieldData}) => {
   const handleInputField = () => {
     const value = document.getElementById("default-search");
     const textValue = value.value;
-    console.log();
+    // console.log();
     setInputFieldData(textValue.toLowerCase())
   
   };

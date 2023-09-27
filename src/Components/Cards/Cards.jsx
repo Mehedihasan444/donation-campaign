@@ -9,12 +9,13 @@ const Cards = ({ cards, inputFieldData }) => {
     filteredCards = cards.filter((card) =>card.Category.toLowerCase().includes(inputFieldData)
     );
     temp=filteredCards
-
+// console.log("from else ",temp)
   }
 
   return (
     <div className="grid md:grid-cols-2  lg:grid-cols-4 gap-5 max-w-7xl mx-auto mt-20 mb-20 justify-center items-center">
-      {temp?.map((card) => (
+      {
+      temp.length ===0?"No data found!":temp.map((card) => (
         <Card key={card.Id} card={card}></Card>
       ))}
     </div>

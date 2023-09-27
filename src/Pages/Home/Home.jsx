@@ -7,7 +7,7 @@ const Home = () => {
   const [inputFieldData, setInputFieldData] = useState("");
 
   const cards = useLoaderData();
-  console.log(cards)
+  // console.log(cards)
 
   return (
     <div>
